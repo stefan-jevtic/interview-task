@@ -7,6 +7,12 @@ app.use(bodyParser.json());
 
 const router = express.Router();
 
+router.route('/').get(
+    (req, res) => {
+        res.send('<html><head><title>Bluegrid task</title></head><body><h1>Bluegrid task</h1><h3><a href="/users">Users</a></h3></body></html>');
+    }
+)
+
 router.route('/users').get(
     async (req, res) => {
         const limit = req.query.limit;

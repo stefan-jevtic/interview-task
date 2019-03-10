@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Stefan",
+        "email": "stefan@stefan.com",
+        "age": 24,
+        "gender": "male",
+        "city": "Belgrade",
+        "country": "Serbia"
+    },
+    {
+        "name": "Jaroslav",
+        "email": "jaki123@jocky.com",
+        "age": 54,
+        "gender": "male",
+        "city": "Warsaw",
+        "country": "Poland"
+    },
+    {
+        "name": "Celine",
+        "email": "seki@aski.com",
+        "age": 25,
+        "gender": "female",
+        "city": "Munich",
+        "country": "Germany"
+    },
+    {
+        "name": "Jamal",
+        "email": "jjmal@malljj.com",
+        "age": 30,
+        "gender": "male",
+        "city": "Lagos",
+        "country": "Nigeria"
+    },
+    {
+        "name": "Veronica",
+        "email": "vera@gez.com",
+        "age": 64,
+        "gender": "female",
+        "city": "Cancun",
+        "country": "Mexico"
+    },
+    {
+        "name": "Nakamura",
+        "email": "sheinsuke@celtic.com",
+        "age": 42,
+        "gender": "male",
+        "city": "Hiroshima",
+        "country": "Japan"
+    },
+    {
+        "name": "Valeria",
+        "email": "vaki@maki.com",
+        "age": 20,
+        "gender": "female",
+        "city": "Milano",
+        "country": "Italy"
+    },
+    {
+        "name": "Gal",
+        "email": "gal@gadot.com",
+        "age": 28,
+        "gender": "female",
+        "city": "Tel Aviv",
+        "country": "Israel"
+    },
+    {
+        "name": "Robert",
+        "email": "rjj@ironman.com",
+        "age": 50,
+        "gender": "male",
+        "city": "Miami",
+        "country": "USA"
+    }
+]

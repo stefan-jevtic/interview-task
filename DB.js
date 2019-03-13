@@ -18,6 +18,14 @@ class DB {
         .limit(parseInt(limit));
     }
 
+    async getUsersPagination(page){
+        if(page < 1)
+            return "Page number must be positive number";
+        return await this.UsersModel.find({})
+            .skip((page - 1) * 2)
+            .limit(2);
+    }
+
     async getUsersByMultipleCriteria(obj){
         let data;
         if (obj.search && obj.sortBy && obj.limit){

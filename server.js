@@ -18,6 +18,7 @@ router.route('/users').get(
         const limit = req.query.limit;
         const sortBy = req.query.sortBy;
         const search = req.query.search;
+        const page = req.query.page;
         let users;
         if(Object.keys(req.query).length > 1){
             users = await db.getUsersByMultipleCriteria(req.query);
@@ -30,6 +31,9 @@ router.route('/users').get(
         }
         else if(search){
             users = await db.getUsersBySearch(search);
+        }
+        else if(page){
+            users = await db.getUsersPagination(parseInt(page));
         }
         else{
             users = await db.getAllUsers();
